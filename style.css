@@ -9,6 +9,6 @@ body {
 }
 
 #emulator {
-    margin-left: auto;
-    margin-right: auto;
+    right: 0;
+    top: 0;
 }
