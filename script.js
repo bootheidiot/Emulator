@@ -17,35 +17,34 @@ var games = {
     }
 };
 
-function emulate(system, file) {
+function emulate(systemin, filein) {
     var resizeOwnEmulator = function(width, height) {
-        var emulator = $('#emulator');
-        emulator.css('width', width);
-        emulator.css('height', height);
-    }
+		var emulator = $('#emulator');
+		emulator.css('width', width);
+		emulator.css('height', height);
+	}
 
-    $(function() {
-        function embed() {
-            var emulator = $('#emulator');
-            if(emulator) {
-                var flashvars = {
-                    system : system,
-                    url : '/roms/' + file
-                };
-                var params = {};
-                var attributes = {};
-
-                params.allowscriptaccess = 'sameDomain';
-                params.allowFullScreen = 'true';
-                params.allowFullScreenInteractive = 'true';
-
-                swfobject.embedSWF('flash/Nesbox.swf', 'emulator', window.innerWidth, window.innerHeight, '11.2.0', 'flash/expressInstall.swf', flashvars, params, attributes);
-                resizeOwnEmulator(window.innerWidth, window.innerHeight);
-            }
-        }
-
-    embed();
-    });
+	$(function() {
+		function embed() {
+			var emulator = $('#emulator');
+			if(emulator) {
+				var flashvars =  {
+					system : systemin,
+					url : filein
+				};
+				var params = {};
+				var attributes = {};
+				
+				params.allowscriptaccess = 'sameDomain';
+				params.allowFullScreen = 'true';
+				params.allowFullScreenInteractive = 'true';
+				
+				swfobject.embedSWF('flash/Nesbox.swf', 'emulator', '640', '480', '11.2.0', 'flash/expressInstall.swf', flashvars, params, attributes);
+			}
+		}
+		
+		embed();
+	});
 }
 
 function checkselect() {
