@@ -49,10 +49,15 @@ function emulate(systemin, filein) {
 }
 
 function checkselect() {
-    if (select.value != "---Select---") {
+    if (select.value == "---Select---") {
+		emulatediv.innerHTML = "<h1>Please select a game.</h1>";
+	else {	
 	var game = games[select.value];
         emulate(game.system, game.file);
     }
 }
-
-emulate("txt", "foo.txt");
+	
+emulate("nes", "foo.txt");
+setTimeout(() => {
+	emulatediv.innerHTML = "<h1>Please select a game.</h1>";
+}, 1000);
