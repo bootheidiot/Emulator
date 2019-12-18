@@ -2,8 +2,13 @@ body {
     overflow: hidden;
 }
 
-* {
+#select {
     position: fixed;
     left: 0;
     top: 0;
+}
+
+#emulator {
+    margin-left: auto;
+    margin-right: auto;
 }
