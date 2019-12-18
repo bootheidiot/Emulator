@@ -1,4 +1,5 @@
 var select = document.getElementById("select");
+var emulatordiv = document.getElementById("emulator");
 
 var games = {
     "Legend of Zelda": {
@@ -48,8 +49,10 @@ function emulate(systemin, filein) {
 }
 
 function checkselect() {
-    if (select.value != "---Select---") {
-        var game = games[select.value];
+    if (select.value == "---Select---") {
+        emulator.innerHTML = "<h1>Please select a game.</h1>";
+    } else {
+	var game = games[select.value];
         emulate(game.system, game.file);
     }
 }
