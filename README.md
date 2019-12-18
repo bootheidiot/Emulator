@@ -1,2 +1,0 @@
-# bootheidiot.github.io
-no
