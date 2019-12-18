@@ -1,6 +1,6 @@
 var input = document.getElementById("input");
 
-input.value.onchange = () => {
+function zelda() {
     var resizeOwnEmulator = function(width, height) {
         var emulator = $('#emulator');
         emulator.css('width', width);
@@ -29,3 +29,9 @@ input.value.onchange = () => {
     embed();
     });
 }
+
+input.value.onchange = () => {
+    alert(input.value);
+}
+
+zelda();
