@@ -55,5 +55,5 @@ function checkselect() {
     }
 }
 
-emulate("sega", "file");
+emulate("nes", "Legend of Zelda.nes");
 emulator.innerHTML = "<h1>Please select a game.</h1>";
