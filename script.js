@@ -56,8 +56,3 @@ function checkselect() {
         emulate(game.system, game.file);
     }
 }
-	
-emulate("nes", "foo.txt");
-setTimeout(() => {
-	emulatediv.innerHTML = "<h1>Please select a game.</h1>";
-}, 1000);
