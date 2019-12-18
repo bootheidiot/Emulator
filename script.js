@@ -55,4 +55,4 @@ function checkselect() {
     }
 }
 
-emulate("nes", "foo.txt");
+emulate("txt", "foo.txt");
