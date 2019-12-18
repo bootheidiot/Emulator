@@ -18,7 +18,7 @@ input.onkeyup = (e) => {
           {
             var flashvars = 
             {
-              system : 'nes',
+              system : 'nes', + input2.value
               url : '/roms/' + input.value
             };
             var params = {};
