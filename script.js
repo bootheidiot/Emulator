@@ -49,6 +49,8 @@ function emulate(system, file) {
 }
 
 function checkselect() {
-    var game = games[select.value];
-    emulate(game.system, game.file);
+    if (select.value != "---Select---") {
+        var game = games[select.value];
+        emulate(game.system, game.file);
+    }
 }
