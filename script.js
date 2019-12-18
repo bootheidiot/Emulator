@@ -36,4 +36,3 @@ input.onkeyup = (e) => {
       });
     }
  }
-
