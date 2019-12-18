@@ -19,7 +19,7 @@ input.onkeyup = (e) => {
             var flashvars = 
             {
               system : 'nes',
-              url : '/roms/Legend of Zelda.nes'
+              url : '/roms/' + input.value
             };
             var params = {};
             var attributes = {};
@@ -28,7 +28,7 @@ input.onkeyup = (e) => {
             params.allowFullScreen = 'true';
             params.allowFullScreenInteractive = 'true';
 
-            swfobject.embedSWF('flash/' + input.value, 'emulator', '640', '480', '11.2.0', 'flash/expressInstall.swf', flashvars, params, attributes);
+            swfobject.embedSWF('flash/Nesbox.swf', 'emulator', '640', '480', '11.2.0', 'flash/expressInstall.swf', flashvars, params, attributes);
           }
         }
 
