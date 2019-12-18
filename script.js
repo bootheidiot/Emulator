@@ -49,10 +49,11 @@ function emulate(systemin, filein) {
 }
 
 function checkselect() {
-    if (select.value == "---Select---") {
-        emulator.innerHTML = "<h1>Please select a game.</h1>";
-    } else {
+    if (select.value != "---Select---") {
 	var game = games[select.value];
         emulate(game.system, game.file);
     }
 }
+
+emulate("sega", "file");
+emulator.innerHTML = "<h1>Please select a game.</h1>";
