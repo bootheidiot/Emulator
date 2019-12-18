@@ -13,7 +13,7 @@ function zelda() {
             if(emulator) {
                 var flashvars = {
                     system : 'nes',
-                    url : '/roms/' + input.value
+                    url : '/roms/Legend of Zelda.nes'
                 };
                 var params = {};
                 var attributes = {};
