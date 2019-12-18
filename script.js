@@ -1,4 +1,4 @@
-var input = document.getElementById("input");
+var input = document.getElementById("select");
 
 function zelda() {
     var resizeOwnEmulator = function(width, height) {
@@ -28,10 +28,6 @@ function zelda() {
 
     embed();
     });
-}
-
-input.value.onchange = () => {
-    alert(input.value);
 }
 
 zelda();
