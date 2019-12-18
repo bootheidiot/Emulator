@@ -29,8 +29,8 @@ function emulate(systemin, filein) {
 			var emulator = $('#emulator');
 			if(emulator) {
 				var flashvars =  {
-					system : systemin,
-					url : filein
+					system: systemin,
+					url: "roms/filein"
 				};
 				var params = {};
 				var attributes = {};
