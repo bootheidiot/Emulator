@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>NesBox</title>
-  </head>
-  
-  <body style="background-color:black;">
-    <div id="emulator"></div>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
-    <input id="input" style="position:fixed"></input>
-    <script src="script.js"></script>
-  </body>    
+    <head>
+        <title>NesBox</title>
+    </head>
+
+    <body style="background-color:black;">
+        <div id="emulator"></div>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+        
+        <select id="input" style="position:fixed">
+            <option value="Legend of Zelda.nes">Legend of Zelda</option>
+            <option value="PokemonSapphire.GBA">Pokemon Sapphire</option>
+            <option value="PokemonSilver.gbc">Pokemon Silver</option>
+        </select>
+        
+        <script src="script.js"></script>
+    </body>
 </html>
