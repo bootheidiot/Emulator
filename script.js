@@ -30,7 +30,7 @@ function emulate(systemin, filein) {
 			if(emulator) {
 				var flashvars =  {
 					system: systemin,
-					url: "roms/filein"
+					url: "roms/" + filein
 				};
 				var params = {};
 				var attributes = {};
