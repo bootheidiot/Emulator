@@ -1,4 +1,21 @@
-var input = document.getElementById("select");
+var select = document.getElementById("select");
+
+var games = {
+    "Legend of Zelda": {
+        system: "nes",
+        file: "Legend of Zelda.nes"
+    },
+    
+    "Pokemon Sapphire": {
+        system: "gba",
+        file: "PokemonSapphire.GBA"
+    },
+    
+    "Pokemon Silver": {
+        system: "gba",
+        file: "PokemonSilver.gbc"
+    }
+};
 
 function emulate(system, file) {
     var resizeOwnEmulator = function(width, height) {
@@ -31,4 +48,7 @@ function emulate(system, file) {
     });
 }
 
-emulate("nes", "Legend of Zelda.nes");
+function checkselect() {
+    var game = games[select.value];
+    emulate(game.system, game.file);
+}
