@@ -27,7 +27,7 @@ select {
     right: 0;
     top: 0;
     margin: auto;
-    transform: scale(0.5);
+    transform: scale(0.25);
 }
 
 #emulator:focus {
