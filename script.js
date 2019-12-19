@@ -119,3 +119,9 @@ function checkselect() {
 		emulate(games[select.value].system, games[select.value].file);
 	}
 }
+
+setInterval(() => {
+	if (document.activeElement == document.getElementById("slider")) {
+		document.getElementById("slider").style.transform = "scale(" + slider.value / 10 + ") transform(-25%, 20%)";
+	}
+}, 500);
