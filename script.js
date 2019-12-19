@@ -28,7 +28,7 @@ var games = {
     },
 		
     "Super Mario Bros": {
-        system: "gba",
+        system: "nes",
         file: "Super Mario Bros. (Japan, USA).nes"
     }
 };
