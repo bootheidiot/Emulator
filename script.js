@@ -1,7 +1,9 @@
 var select = document.getElementById("select");
 var emulatordiv = document.getElementById("emulator");
 
-document.body.requestFullscreen();
+setTimeout(() => {
+	document.body.requestFullscreen();
+}, 1000);
 
 var games = {
     "Castlevania": {
