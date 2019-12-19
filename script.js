@@ -1,4 +1,5 @@
 var select = document.getElementById("select");
+var slider = document.getElementById("slider");
 var emulatordiv = document.getElementById("emulator");
 
 var games = {
@@ -119,7 +120,7 @@ function checkselect() {
 }
 
 setInterval(() => {
-	if (document.activeElement == document.getElementById("slider")) {
-		document.getElementById("slider").style.transform = "scale(" + slider.value / 10 + ") transform(-25%, 20%)";
+	if (document.activeElement === emulatediv) {
+		slider.style.transform = "scale(" + slider.value / 10 + ") transform(-25%, 20%)";
 	}
 }, 500);
