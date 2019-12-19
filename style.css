@@ -24,11 +24,12 @@ select {
     z-index: 10;
     position: fixed;
     image-rendering: crisp-edges;
+    transform: scale(0.5);
     right: 0;
     top: 0;
 }
 
-#emulator:hover {
+#emulator:focus {
     transform: scale(1.25) translate(-25%, 20%);
 }
 
