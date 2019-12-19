@@ -6,13 +6,16 @@ body {
     overflow: hidden;
 }
 
-#select, #emulator {
+#select {
     position: fixed;
     left: 0;
     top: 0;
 }
 
 #emulator {
+    position: fixed;
+    right: 0;
+    top: 0;
     width: 100%;
     height: 100%;
 }
