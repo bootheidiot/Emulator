@@ -30,7 +30,7 @@ select {
     margin: auto;
 }
 
-#emulator:active {
+#emulator:focus {
     transform: scale(1.7) transform(-25%, 20%);
 }
 
