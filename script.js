@@ -17,7 +17,7 @@ var games = {
         file: "PokemonSilver.gbc"
     },
 	
-    "Mort Kombat Advance": {
+    "Mortal Kombat Advance": {
         system: "gba",
         file: "Mortal Kombat Advance (U).gba"
     }
