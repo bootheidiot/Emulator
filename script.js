@@ -30,6 +30,14 @@ var games = {
     "Super Mario Bros": {
         system: "nes",
         file: "Super Mario Bros.nes"
+    },
+    "Mega Man 3": {
+        system: "nes",
+        file: "Mega Man 3 (USA).nes"
+    },
+    "Pokemon Emerald": {
+        system: "gba",
+        file: "1986 - Pokemon - Emerald Version (UE).gba"
     }
 };
 
@@ -69,5 +77,6 @@ function checkselect() {
 	} else {	
 		var game = games[select.value];
         emulate(game.system, game.file);
+		emulatordiv.requestFullscreen();
     }
 }
