@@ -30,8 +30,9 @@ select {
     transform: scale(0.25);
 }
 
-#emulator:focus {
-    transform: scale(1.7) translate(-25%, 20%);
+#slider {
+    left: 0;
+    bottom: 0;
 }
 
 h1, h2, h3, h4, h5, h6, p {
