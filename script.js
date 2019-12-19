@@ -74,16 +74,9 @@ function emulate(systemin, filein) {
 }
 
 function checkselect() {
-	emulatediv.style.opacity = "0";
-	
-	setTimeout(() => {
-		if (select.value == "---Select---") {
-			emulatediv.innerHTML = "<h1>Please select a game.</h1>";
-		} else {	
-			emulate(games[select.value].system, games[select.value].file);
-		}
-		setTimeout(() => {
-			emulatediv.style.opacity = "1";
-		}, 250);
-	}, 1000);
+	if (select.value == "---Select---") {
+		emulatediv.innerHTML = "<h1>Please select a game.</h1>";
+	} else {	
+		emulate(games[select.value].system, games[select.value].file);
+	}
 }
