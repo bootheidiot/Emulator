@@ -12,6 +12,11 @@ var games = {
 		file: "Contra (U) .nes"
 	},
 	
+	"Donkey Kong": {
+		system: "nes",
+		file: "Donkey_kong.nes"
+	},
+	
 	"Donkey Kong Country": {
 		system: "gba",
 		file: "Donkey Kong Country.gba"
