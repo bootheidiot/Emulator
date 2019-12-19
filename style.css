@@ -1,9 +1,16 @@
-a:link {
-  color: DodgerBlue;
+* {
+    font-family: "Modern No. 20";
 }
+
 body {
     background-color: black;
     overflow: hidden;
+}
+
+select {
+    background-color: black;
+    color: white;
+    font-size: 25px;
 }
 
 #select {
