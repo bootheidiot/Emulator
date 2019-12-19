@@ -17,6 +17,11 @@ var games = {
         file: "PokemonSilver.gbc"
     },
 	
+	"Pokemon Emerald": {
+        system: "gba",
+        file: "1986 - Pokemon - Emerald Version (UE).gba"
+    },
+	
     "Mortal Kombat Advance": {
         system: "gba",
         file: "Mortal Kombat Advance.gba"
@@ -31,13 +36,10 @@ var games = {
         system: "nes",
         file: "Super Mario Bros.nes"
     },
+	
     "Mega Man 3": {
         system: "nes",
         file: "Mega Man 3 (USA).nes"
-    },
-    "Pokemon Emerald": {
-        system: "gba",
-        file: "1986 - Pokemon - Emerald Version (UE).gba"
     }
 };
 
