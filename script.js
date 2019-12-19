@@ -118,7 +118,3 @@ function checkselect() {
 		emulate(games[select.value].system, games[select.value].file);
 	}
 }
-
-setInterval(() => {
-	emulatordiv.style.transform = "scale(" + slider.value / 10 + ") transform(-25%, 20%)";
-}, 500);
