@@ -40,6 +40,36 @@ var games = {
 	"Meteroid Fusion": {
 		system: "gba",
 		file: "Metroid Fusion (U) [!]"
+	},
+	
+	"Mortal Kombat Advace": {
+		system: "gba",
+		file: "Mortal Kombat Advance.gba"
+	},
+	
+	"Pokemon Emerald": {
+		system: "gba",
+		file: "Pokemon - Emerald Version (UE)"
+	},
+	
+	"Pokemon Sapphire": {
+		system: "gba",
+		file: "PokemonSapphire.gba"
+	},
+	
+	"Punch Out": {
+		system: "nes",
+		file: "Punch-Out (U) .nes"
+	},
+	
+	"Super Mario Bros": {
+		system: "nes",
+		file: "Super Mario Bros.nes"
+	},
+	
+	"Tetris": {
+		system: "nes",
+		file: "Tetris.nes"
 	}
 };
 
