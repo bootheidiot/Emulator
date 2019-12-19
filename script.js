@@ -77,7 +77,6 @@ function checkselect() {
     if (select.value == "---Select---") {
 		emulatediv.innerHTML = "<h1>Please select a game.</h1>";
 	} else {	
-		var game = games[select.value];
-        emulate(game.system, game.file);
+        emulate(games[select.value].system, games[select.value].file);
     }
 }
