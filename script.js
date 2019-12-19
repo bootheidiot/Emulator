@@ -9,7 +9,7 @@ var games = {
 	
 	"Contra": {
 		system: "nes",
-		file: "Contra (U) .nes"
+		file: "Contra.nes"
 	},
 	
 	"Donkey Kong": {
@@ -64,7 +64,7 @@ var games = {
 	
 	"Punch Out": {
 		system: "nes",
-		file: "Punch-Out (U) .nes"
+		file: "Punch-Out.nes"
 	},
 	
 	"Super Mario Bros": {
