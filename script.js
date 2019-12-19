@@ -20,6 +20,16 @@ var games = {
     "Mortal Kombat Advance": {
         system: "gba",
         file: "Mortal Kombat Advance (U).gba"
+    },
+	
+    "Donkey Kong Country": {
+        system: "gba",
+        file: "Donkey Kong Country (U) [!].gba"
+    },
+		
+    "Super Mario Bros": {
+        system: "gba",
+        file: "Super Mario Bros. (Japan, USA).nes"
     }
 };
 
