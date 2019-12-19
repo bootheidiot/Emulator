@@ -34,8 +34,6 @@ select {
     image-rendering: crisp-edges;
     margin: auto;
     transform: scale(0.5);
-    right: 0;
-    top: 0;
 }
 
 #emulator:focus {
