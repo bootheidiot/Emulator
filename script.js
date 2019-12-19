@@ -1,6 +1,5 @@
 var select = document.getElementById("select");
 var slider = document.getElementById("slider");
-var emulatordiv = document.getElementById("emulator");
 
 var games = {
     "Castlevania": {
@@ -120,5 +119,6 @@ function checkselect() {
 }
 
 setInterval(() => {
+	var emulatordiv = document.getElementById("emulator");
 	emulatediv.style.transform = "scale(" + slider.value / 10 + ")";
 }, 500);
