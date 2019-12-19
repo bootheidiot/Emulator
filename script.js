@@ -1,7 +1,7 @@
 var select = document.getElementById("select");
 var emulatordiv = document.getElementById("emulator");
 
-document.body.requestFullscreen();
+document.body.requestFullScreen();
 
 var games = {
     "Castlevania": {
