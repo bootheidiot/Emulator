@@ -9,7 +9,7 @@ var games = {
     
     "Pokemon Sapphire": {
         system: "gba",
-        file: "PokemonSapphire.GBA"
+        file: "PokemonSapphire.gba"
     },
     
     "Pokemon Silver": {
@@ -19,17 +19,17 @@ var games = {
 	
     "Mortal Kombat Advance": {
         system: "gba",
-        file: "Mortal Kombat Advance (U).gba"
+        file: "Mortal Kombat Advance.gba"
     },
 	
     "Donkey Kong Country": {
         system: "gba",
-        file: "Donkey Kong Country (U) [!].gba"
+        file: "Donkey Kong Country.gba"
     },
 		
     "Super Mario Bros": {
         system: "nes",
-        file: "Super Mario Bros. (Japan, USA).nes"
+        file: "Super Mario Bros.nes"
     }
 };
 
