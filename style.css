@@ -24,12 +24,15 @@ select {
     z-index: 10;
     position: fixed;
     image-rendering: crisp-edges;
+    top: 0;
+    right: 0;
     margin: auto;
     transform: scale(0.5) translateY(100%);
 }
 
 #emulator:focus {
-    transform: scale(1.25) translate(25%, 50%);
+    height: 90vh;
+    width: auto;
 }
 
 h1, h2, h3, h4, h5, h6, p {
