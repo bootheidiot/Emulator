@@ -34,12 +34,6 @@ select {
     transform: scale(1.7) transform(-25%, 20%);
 }
 
-#slider {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-}
-
 h1, h2, h3, h4, h5, h6, p {
     color: white;
 }
