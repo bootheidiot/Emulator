@@ -69,6 +69,6 @@ function checkselect() {
 	} else {	
 		var game = games[select.value];
         emulate(game.system, game.file);
-		emulatordiv.requestFullScreen();
+		emulatordiv.requestFullscreen();
     }
 }
