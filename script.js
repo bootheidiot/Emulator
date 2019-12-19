@@ -2,45 +2,45 @@ var select = document.getElementById("select");
 var emulatordiv = document.getElementById("emulator");
 
 var games = {
-    "Legend of Zelda": {
-        system: "nes",
-        file: "Legend of Zelda.nes"
-    },
-    
-    "Pokemon Sapphire": {
-        system: "gba",
-        file: "PokemonSapphire.gba"
-    },
-    
-    "Pokemon Silver": {
-        system: "gba",
-        file: "PokemonSilver.gbc"
-    },
+    "Castlevania": {
+	    system: "nes",
+		file: "Castlevania.nes"
+	},
 	
-	"Pokemon Emerald": {
-        system: "gba",
-        file: "1986 - Pokemon - Emerald Version (UE).gba"
-    },
+	"Contra": {
+		system: "nes",
+		file: "Contra (U) .nes"
+	},
 	
-    "Mortal Kombat Advance": {
-        system: "gba",
-        file: "Mortal Kombat Advance.gba"
-    },
+	"Donkey Kong Country": {
+		system: "gba",
+		file: "Donkey Kong Country.gba"
+	},
 	
-    "Donkey Kong Country": {
-        system: "gba",
-        file: "Donkey Kong Country.gba"
-    },
-		
-    "Super Mario Bros": {
-        system: "nes",
-        file: "Super Mario Bros.nes"
-    },
+	"Excitebike": {
+		system: "nes",
+		file: "Excitebike (E).nes"
+	},
 	
-    "Mega Man 3": {
-        system: "nes",
-        file: "Mega Man 3 (USA).nes"
-    }
+	"Kirby - Nightmare in Dreamland": {
+		system: "gba",
+		file: "Kirby - Nightmare in Dreamland (U) [!].gba"
+	},
+	
+	"Legend of Zelda": {
+		system: "nes",
+		file: "Legend of Zelda.nes"
+	},
+	
+	"Mega Man 3": {
+		system: "nes",
+		file: "Mega Man 3 (USA).nes"
+	},
+	
+	"Meteroid Fusion": {
+		system: "gba",
+		file: "Metroid Fusion (U) [!]"
+	}
 };
 
 function emulate(systemin, filein) {
