@@ -1,5 +1,6 @@
 var select = document.getElementById("select");
 var slider = document.getElementById("slider");
+var emulatordiv = document.getElementById("emulator");
 
 var games = {
     "Castlevania": {
@@ -110,7 +111,7 @@ function emulate(systemin, filein) {
 
 function checkselect() {
 	if (select.value == "---Select---") {
-		emulatediv.innerHTML = "";
+		emulatordiv.innerHTML = "";
 	} else if (select.value == "redirect") {
 		location = "https://bootheidiot.github.io/N64";
 	} else {
@@ -119,6 +120,9 @@ function checkselect() {
 }
 
 setInterval(() => {
-	var emulatordiv = document.getElementById("emulator");
-	emulatediv.style.transform = "scale(" + slider.value / 10 + ")";
+	if (document.activeElement === emulatediv) {
+		emulatordiv.style.transform = "scale(" + slider.value / 10 + ") transform(-25%, 20%)";
+	} else {
+		emulatediv.style.transform = "scale(0.25)";
+	}
 }, 500);
