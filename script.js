@@ -55,7 +55,7 @@ function emulate(systemin, filein) {
 				params.allowFullScreen = 'true';
 				params.allowFullScreenInteractive = 'true';
 				
-				swfobject.embedSWF('flash/Nesbox.swf', 'emulator', window.innerWidth, window.innerHeight, '11.2.0', 'flash/expressInstall.swf', flashvars, params, attributes);
+				swfobject.embedSWF('flash/Nesbox.swf', 'emulator', "", "", '11.2.0', 'flash/expressInstall.swf', flashvars, params, attributes);
 			}
 		}
 		
