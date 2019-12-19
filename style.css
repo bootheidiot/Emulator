@@ -23,6 +23,7 @@ select {
 #emulator {
     z-index: 10;
     position: fixed;
+    image-rendering: crisp-edges;
     right: 0;
     top: 0;
 }
