@@ -1,6 +1,8 @@
 var select = document.getElementById("select");
 var emulatordiv = document.getElementById("emulator");
 
+alert("Please fullscreen this page, as some content may go outside the window when not fullscreened.");
+
 var games = {
     "Castlevania": {
 	    system: "nes",
