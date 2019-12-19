@@ -76,7 +76,9 @@ function emulate(systemin, filein) {
 function checkselect() {
 	if (select.value == "---Select---") {
 		emulatediv.innerHTML = "<h1>Please select a game.</h1>";
-	} else {	
+	} else if (select.value == "redirect") {
+		location = "https://bootheidiot.github.io/N64";
+	} else {
 		emulate(games[select.value].system, games[select.value].file);
 	}
 }
