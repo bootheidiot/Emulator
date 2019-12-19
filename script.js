@@ -49,7 +49,7 @@ var games = {
 	
 	"Pokemon Emerald": {
 		system: "gba",
-		file: "Pokemon - Emerald Version (UE)"
+		file: "Pokemon - Emerald Version (UE).gba"
 	},
 	
 	"Pokemon Sapphire": {
