@@ -24,10 +24,10 @@ select {
     z-index: 10;
     position: fixed;
     image-rendering: crisp-edges;
-    top: 0;
     right: 0;
+    top: 0;
     margin: auto;
-    transform: scale(0.5) translateY(100%);
+    transform: scale(0.5);
 }
 
 #emulator:focus {
