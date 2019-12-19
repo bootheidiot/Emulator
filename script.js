@@ -1,10 +1,6 @@
 var select = document.getElementById("select");
 var emulatordiv = document.getElementById("emulator");
 
-setTimeout(() => {
-	document.body.requestFullscreen();
-}, 1000);
-
 var games = {
     "Castlevania": {
 	    system: "nes",
