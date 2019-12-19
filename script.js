@@ -120,10 +120,5 @@ function checkselect() {
 }
 
 setInterval(() => {
-	emulatediv.style.transform = "scale(" + slider.value / 10 + ") transform(-25%, 20%)";
-	/*if (document.activeElement === emulatediv) {
-		
-	} else {
-		emulatediv.style.transform = "scale(0.25)";
-	}*/
+	emulatediv.style.transform = "scale(" + slider.value / 10 + ")";
 }, 500);
