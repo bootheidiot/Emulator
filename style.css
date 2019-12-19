@@ -30,6 +30,10 @@ select {
     margin: auto;
 }
 
+#emulator:active {
+    transform: scale(1.7) transform(-25%, 20%);
+}
+
 #slider {
     position: fixed;
     left: 0;
