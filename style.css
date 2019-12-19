@@ -1,5 +1,5 @@
-a {
-  color: hotpink;
+a:link {
+  color: DodgerBlue;
 }
 body {
     background-color: black;
