@@ -66,4 +66,6 @@ function checkselect() {
 }
 
 emulate("", "");
-document.getElementById("emulator").innerHTML = "";
+setTimeout(() => {
+	document.getElementById("emulator").innerHTML = "";
+}, 1000);
