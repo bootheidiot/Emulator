@@ -20,14 +20,17 @@ body {
     position: fixed;
     border-radius: initial;
     image-rendering: crisp-edges;
-    transform: scale(0.25);
+    transform: scale(1.7);
     right: 0;
     top: 0;
     margin: auto;
 }
 
-#emulator:focus {
-    transform: scale(1.3) translate(-22%, 22%);
+#slider {
+    z-index: 20;
+    position: fixed;
+    right: 0;
+    bottom: 0;
 }
 
 #chatframe {
