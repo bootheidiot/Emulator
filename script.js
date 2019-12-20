@@ -12,6 +12,7 @@ function updatezoom() {
 	emulatordiv.style.right = width / 4 + "px";
 	emulatordiv.style.top = height / 4 + "px";
 }
+updatezoom();
 
 function toggleframe() {
 	if (chatvisible) {
