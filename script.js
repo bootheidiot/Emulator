@@ -50,7 +50,9 @@ function emulate(systemin, filein) {
 		
 		embed();
 	});
-	updatezoom();
+	setTimeout(() => {
+		updatezoom();
+	}, 1000);
 }
 
 function checkselect() {
