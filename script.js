@@ -50,6 +50,7 @@ function emulate(systemin, filein) {
 		
 		embed();
 	});
+	updatezoom();
 }
 
 function checkselect() {
@@ -61,6 +62,8 @@ function checkselect() {
 	} else {
 		var system = select.value.split(".")[1];
 		emulate(system, select.value);
-		updatezoom();
 	}
 }
+
+emulate("", "");
+document.getElementById("emulator").innerHTML = "";
