@@ -43,9 +43,9 @@ var games = {
 		file: "Mega Man 3 (USA).nes"
 	},
 	
-	"Meteroid Fusion": {
+	"Metroid Fusion": {
 		system: "gba",
-		file: "Meteroid Fusion (U) [!].gba"
+		file: "Metroid Fusion (U) [!].gba"
 	},
 	
 	"Mortal Kombat Advace": {
