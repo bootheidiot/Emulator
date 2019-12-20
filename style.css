@@ -18,6 +18,7 @@ body {
 #emulator {
     z-index: 10;
     position: fixed;
+    border-radius: initial;
     image-rendering: crisp-edges;
     transform: scale(0.25);
     right: 0;
