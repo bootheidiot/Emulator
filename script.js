@@ -4,7 +4,7 @@ var emulatordiv = document.getElementById("emulator");
 var chatframe = document.getElementById("chatframe");
 var chatvisible = false;
 
-function togglechat() {
+function toggleframe() {
 	if (chatvisible) {
 		chatframe.style.transform = "translateY(100%)";
 	} else {
