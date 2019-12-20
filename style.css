@@ -41,6 +41,7 @@ body {
 
 #chatbutton {
     position: fixed;
+    background-color: blue;
     left: 0;
     top: 50px;
     width: 50px;
