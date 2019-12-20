@@ -8,7 +8,7 @@ body {
     overflow: hidden;
 }
 
-select {
+select, button {
     background-color: black;
     color: white;
     font-size: 30px;
