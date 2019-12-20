@@ -45,7 +45,7 @@ var games = {
 	
 	"Meteroid Fusion": {
 		system: "gba",
-		file: "Metroid Fusion (U) [!]"
+		file: "Metroid Fusion (U) [!].gba"
 	},
 	
 	"Mortal Kombat Advace": {
