@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6, p {
 .slider {
   -webkit-appearance: none;  /* Override default CSS styles */
   appearance: none;
-  width: 100%; /* Full-width */
+  width: 30%; /* Full-width */
   height: 25px; /* Specified height */
   background: #ffffff; /* Grey background */
   outline: none; /* Remove outline */
