@@ -3,12 +3,12 @@ var slider = document.getElementById("slider");
 var chatframe = document.getElementById("chatframe");
 var chatvisible = false;
 
-slider.value.onchange = () => {
+setInterval(() => {
 	var emulatordiv = document.getElementById("emulator");
 	emulatordiv.style.transform = "scale(" + slider.value / 10 + ")";
 	emulatordiv.style.right = "0";
 	emulatordiv.style.top = "0";
-}
+}, 100);
 
 function toggleframe() {
 	if (chatvisible) {
