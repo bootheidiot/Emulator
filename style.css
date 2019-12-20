@@ -1,18 +1,10 @@
 * {
     font-family: "Modern No. 20";
     transition-duration: 1s;
-    border: none;
 }
 
 body {
-    background-color: black;
     overflow: hidden;
-}
-
-select, button {
-    background-color: black;
-    color: white;
-    font-size: 30px;
 }
 
 #select {
