@@ -4,6 +4,12 @@ var emulatordiv = document.getElementById("emulator");
 var chatframe = document.getElementById("chatframe");
 var chatvisible = false;
 
+slider.value.onchange = () => {
+	emulatordiv.style.transform = "scale(" + slider.value / 10 + ")";
+	emulatordiv.style.right = "0";
+	emulatordiv.style.top = "0";
+}
+
 function toggleframe() {
 	if (chatvisible) {
 		chatframe.style.transform = "translateY(100%)";
