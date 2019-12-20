@@ -9,6 +9,7 @@ body {
 
 #select {
     position: fixed;
+    width: 27%;
     left: 0;
     top: 0;
 }
