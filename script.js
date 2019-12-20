@@ -63,6 +63,7 @@ function checkselect() {
 		location = "https://bootheidiot.github.io/N64";
 	} else {
 		var system = select.value.split(".")[1];
+		document.title = select.value;
 		emulate(system, select.value);
 	}
 }
