@@ -2,83 +2,6 @@ var select = document.getElementById("select");
 var slider = document.getElementById("slider");
 var emulatordiv = document.getElementById("emulator");
 
-var games = {
-    "Castlevania": {
-	    system: "nes",
-		file: "Castlevania.nes"
-	},
-	
-	"Contra": {
-		system: "nes",
-		file: "Contra.nes"
-	},
-	
-	"Donkey Kong": {
-		system: "nes",
-		file: "Donkey_kong.nes"
-	},
-	
-	"Donkey Kong Country": {
-		system: "gba",
-		file: "Donkey Kong Country.gba"
-	},
-	
-	"Excitebike": {
-		system: "nes",
-		file: "Excitebike (E).nes"
-	},
-	
-	"Kirby - Nightmare in Dreamland": {
-		system: "gba",
-		file: "Kirby - Nightmare in Dreamland (U) [!].gba"
-	},
-	
-	"Legend of Zelda": {
-		system: "nes",
-		file: "Legend of Zelda.nes"
-	},
-	
-	"Mega Man 3": {
-		system: "nes",
-		file: "Mega Man 3 (USA).nes"
-	},
-	
-	"Metroid Fusion": {
-		system: "gba",
-		file: "Metroid Fusion (U) [!].gba"
-	},
-	
-	"Mortal Kombat Advace": {
-		system: "gba",
-		file: "Mortal Kombat Advance.gba"
-	},
-	
-	"Pokemon Emerald": {
-		system: "gba",
-		file: "Pokemon - Emerald Version (UE).gba"
-	},
-	
-	"Pokemon Sapphire": {
-		system: "gba",
-		file: "PokemonSapphire.gba"
-	},
-	
-	"Punch Out": {
-		system: "nes",
-		file: "Punch-Out.nes"
-	},
-	
-	"Super Mario Bros": {
-		system: "nes",
-		file: "Super Mario Bros.nes"
-	},
-	
-	"Tetris": {
-		system: "nes",
-		file: "Tetris.nes"
-	}
-};
-
 function emulate(systemin, filein) {
     var resizeOwnEmulator = function(width, height) {
 		var emulator = $('#emulator');
@@ -115,6 +38,7 @@ function checkselect() {
 	} else if (select.value == "redirect") {
 		location = "https://bootheidiot.github.io/N64";
 	} else {
-		emulate(games[select.value].system, games[select.value].file);
+		var system = select.value.split(".")[1];
+		emulate(system, select.value);
 	}
 }
