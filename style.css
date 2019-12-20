@@ -38,6 +38,8 @@ select {
     position: fixed;
     left: 0;
     bottom: 0;
+    width: 25%;
+    height: 50%;
 }
 
 h1, h2, h3, h4, h5, h6, p {
