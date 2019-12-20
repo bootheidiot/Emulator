@@ -29,6 +29,8 @@ body {
 
 #chatframe {
     position: fixed;
+    border: none;
+    border-radius: initial;
     left: 0;
     bottom: 0;
     width: 27%;
@@ -38,6 +40,7 @@ body {
 
 #chatbutton {
     position: fixed;
+    border-radius: initial;
     left: 0;
     top: 50px;
     width: 50px;
