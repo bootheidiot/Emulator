@@ -31,7 +31,7 @@ select {
 }
 
 #emulator:focus {
-    transform: scale(1.7) translate(-22%, 22%);
+    transform: scale(1.5) translate(-22%, 22%);
 }
 
 h1, h2, h3, h4, h5, h6, p {
