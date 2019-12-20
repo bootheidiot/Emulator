@@ -1,10 +1,10 @@
 var select = document.getElementById("select");
 var slider = document.getElementById("slider");
-var emulatordiv = document.getElementById("emulator");
 var chatframe = document.getElementById("chatframe");
 var chatvisible = false;
 
 slider.value.onchange = () => {
+	var emulatordiv = document.getElementById("emulator");
 	emulatordiv.style.transform = "scale(" + slider.value / 10 + ")";
 	emulatordiv.style.right = "0";
 	emulatordiv.style.top = "0";
@@ -50,6 +50,7 @@ function emulate(systemin, filein) {
 }
 
 function checkselect() {
+	var emulatordiv = document.getElementById("emulator");
 	if (select.value == "---Select---") {
 		emulatordiv.innerHTML = "";
 	} else if (select.value == "redirect") {
