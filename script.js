@@ -6,7 +6,7 @@ var chatvisible = false;
 
 function togglechat() {
 	if (chatvisible) {
-		chatframe.style.transform = "translateY(-100%)";
+		chatframe.style.transform = "translateY(100%)";
 	} else {
 		chatframe.style.transform = "translateY(0)";
 	}
