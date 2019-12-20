@@ -1,6 +1,17 @@
 var select = document.getElementById("select");
 var slider = document.getElementById("slider");
 var emulatordiv = document.getElementById("emulator");
+var chatframe = document.getElementById("chatframe");
+var chatvisible = false;
+
+function togglechat() {
+	if (chatvisible) {
+		chatframe.style.transform = "translateY(-100%)";
+	} else {
+		chatframe.style.transform = "translateY(0)";
+	}
+	chatvisible = !chatvisible;
+}
 
 function emulate(systemin, filein) {
     var resizeOwnEmulator = function(width, height) {
