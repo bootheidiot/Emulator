@@ -3,7 +3,7 @@ var slider = document.getElementById("slider");
 var chatframe = document.getElementById("chatframe");
 var chatvisible = false;
 
-setInterval(() => {
+function updatezoom() {
 	var emulatordiv = document.getElementById("emulator");
 	var scale = slider.value / 10;
 	var width = emulatordiv.offsetWidth * scale;
@@ -11,7 +11,7 @@ setInterval(() => {
 	emulatordiv.style.transform = "scale(" + scale + ")";
 	emulatordiv.style.right = width / 4 + "px";
 	emulatordiv.style.top = height / 4 + "px";
-}, 100);
+}
 
 function toggleframe() {
 	if (chatvisible) {
