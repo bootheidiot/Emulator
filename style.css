@@ -36,6 +36,7 @@ select {
 
 #chatframe {
     position: fixed;
+    border: none;
     left: 0;
     bottom: 0;
     width: 25%;
