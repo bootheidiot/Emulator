@@ -37,8 +37,6 @@ function checkselect() {
 		emulatordiv.innerHTML = "";
 	} else if (select.value == "redirect") {
 		location = "https://bootheidiot.github.io/N64";
-	  else if (select.value == "discord") {
-		location = "https://bootheidiot.github.io/N64";
 	} else {
 		var system = select.value.split(".")[1];
 		emulate(system, select.value);
