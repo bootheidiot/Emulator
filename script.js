@@ -9,8 +9,8 @@ setInterval(() => {
 	var width = emulatordiv.offsetWidth * scale;
 	var height = emulatordiv.offsetHeight * scale;
 	emulatordiv.style.transform = "scale(" + scale + ")";
-	emulatordiv.style.right = width / 2 + "px";
-	emulatordiv.style.top = height / 2 + "px";
+	emulatordiv.style.right = width / 4 + "px";
+	emulatordiv.style.top = height / 4 + "px";
 }, 100);
 
 function toggleframe() {
