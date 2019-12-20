@@ -5,7 +5,7 @@ var chatvisible = false;
 
 setInterval(() => {
 	var emulatordiv = document.getElementById("emulator");
-	emulatordiv.style.transform = "scale(" + slider.value / 10 + ")";
+	emulatordiv.style.transform = "scale(" + slider.value / 10 + ") transform(-" + emulatordiv.width / 2 + ", " + emulatordiv.height / 2 + ")";
 }, 100);
 
 function toggleframe() {
