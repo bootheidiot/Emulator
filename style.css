@@ -25,6 +25,10 @@ body {
     margin: auto;
 }
 
+#emulator, #iframediv {
+    position: absolute;
+}
+
 iframe {
     width: 100%;
     height: 100%;
