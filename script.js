@@ -3,6 +3,15 @@ var slider = document.getElementById("slider");
 var chatframe = document.getElementById("chatframe");
 var chatvisible = false;
 
+var systems = {
+	"nes": "nes",
+	"smc": "snes",
+	"gen": "sega",
+	"gb": "gb",
+	"gbc": "gbc",
+	"gba": "gba",
+}
+
 function updatezoom() {
 	var emulatordiv = document.getElementById("emulator");
 	var scale = slider.value / 10;
@@ -62,8 +71,8 @@ function checkselect() {
 	} else if (select.value == "redirect") {
 		location = "https://bootheidiot.github.io/N64";
 	} else {
-		var system = select.value.split(".")[1];
-		emulate(system, select.value);
+		var extension = select.value.split(".")[1];
+		emulate(systems[extension], select.value);
 	}
 }
 
