@@ -72,8 +72,12 @@ function checkselect() {
 	} else if (select.value == "redirect") {
 		location = "https://bootheidiot.github.io/N64";
 	} else if (select.value.includes("https://")) {
+		emulatordiv.style.display = "none";
+		iframediv.style.display = "block";
 		iframediv.innerHTML = "<iframe src=" + select.value + "></iframe>";
 	} else {
+		emulatordiv.style.display = "block";
+		iframediv.style.display = "none";
 		var extension = select.value.split(".")[1];
 		emulate(systems[extension], select.value);
 	}
