@@ -66,12 +66,13 @@ function emulate(systemin, filein) {
 
 function checkselect() {
 	var emulatordiv = document.getElementById("emulator");
+	var iframediv = document.getElementById("iframediv");
 	if (select.value == "---Select---") {
 		emulatordiv.innerHTML = "";
 	} else if (select.value == "redirect") {
 		location = "https://bootheidiot.github.io/N64";
 	} else if (select.value.includes("https://")) {
-		emulatordiv.innerHTML = "<iframe src=" + select.value + "></iframe>";
+		iframediv.innerHTML = "<iframe src=" + select.value + "></iframe>";
 	} else {
 		var extension = select.value.split(".")[1];
 		emulate(systems[extension], select.value);
