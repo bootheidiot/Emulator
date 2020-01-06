@@ -13,13 +13,13 @@ var systems = {
 }
 
 function updatezoom() {
-	var emulatordiv = document.getElementById("emulator");
+	var containerdiv = document.getElementById("container");
 	var scale = slider.value / 10;
-	var width = emulatordiv.offsetWidth * scale;
-	var height = emulatordiv.offsetHeight * scale;
-	emulatordiv.style.transform = "scale(" + scale + ")";
-	emulatordiv.style.right = width / 4 + "px";
-	emulatordiv.style.top = height / 4 + "px";
+	var width = containerdiv.offsetWidth * scale;
+	var height = containerdiv.offsetHeight * scale;
+	containerdiv.style.transform = "scale(" + scale + ")";
+	containerdiv.style.right = width / 4 + "px";
+	containerdiv.style.top = height / 4 + "px";
 }
 
 function toggleframe() {
