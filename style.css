@@ -15,7 +15,7 @@ body {
     top: 0;
 }
 
-#container {
+#emulator {
     z-index: 10;
     position: fixed;
     border-radius: initial;
@@ -23,10 +23,6 @@ body {
     right: 0;
     top: 0;
     margin: auto;
-}
-
-#emulator, #iframediv {
-    position: absolute;
 }
 
 iframe {
