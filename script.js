@@ -69,7 +69,7 @@ function checkselect() {
 	if (select.value == "---Select---") {
 		emulatordiv.innerHTML = "";
 	} else if (select.value == "redirect") {
-		location = "https://bootheidiot.github.io/N64-2.0/";
+		location = "https://bootheidiot.github.io/Main-Page/";
 	} else {
 		var extension = select.value.split(".")[1];
 		emulate(systems[extension], select.value);
