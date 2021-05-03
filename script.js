@@ -80,4 +80,3 @@ emulate("", "");
 setTimeout(() => {
 	document.getElementById("emulator").innerHTML = "";
 }, 1000);
-<script src="ruffle.js"></script>
